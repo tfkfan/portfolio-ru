@@ -17,16 +17,17 @@ body {
     font-size: 14px;
     line-height: 26px;
     padding-bottom: 50px;
+    background: url("/assets/img/background.png") 100% 100% fixed;
+    background-size: cover;
 }
 
 .container {
     max-width: 700px;
-    background: #fff;
-    margin: 0px auto 0px;
+    background: rgba(255,255,255,0.9);
     box-shadow: 1px 1px 2px #DAD7D7;
-    border-radius: 3px;
+    border-radius: 15px;
     padding: 40px;
-    margin-top: 50px;
+    margin: 50px auto 0;
 }
 
 .header {
@@ -158,4 +159,5 @@ body {
 
 img{
     width:100%;
+    opacity: 1.0;
 }
