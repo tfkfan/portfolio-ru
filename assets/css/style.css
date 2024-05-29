@@ -9,7 +9,6 @@
     box-sizing: border-box;
 }
 
-
 html {
     height: 100%;
 }
@@ -55,14 +54,6 @@ a:visited {
     font-weight: 700;
 }
 
-.header .first-name {
-    /*font-weight: 700;*/
-}
-
-.header .last-name {
-    /* font-weight: 300;*/
-}
-
 .header .contact-info {
     margin-bottom: 20px;
 }
@@ -77,7 +68,7 @@ a:visited {
     height: 10px;
     display: inline-block;
     border-left: 2px solid #999;
-    margin: 0px 10px;
+    margin: 0 10px;
 }
 
 .header .position {
@@ -86,7 +77,6 @@ a:visited {
     margin-right: 10px;
     text-decoration: underline;
 }
-
 
 .details {
     line-height: 25px;
@@ -97,7 +87,7 @@ a:visited {
 }
 
 .details .section:last-of-type {
-    margin-bottom: 0px;
+    margin-bottom: 0;
 }
 
 .details .section__title {
@@ -145,10 +135,6 @@ a:visited {
 .details a:hover {
     text-decoration: underline;
     color: #000;
-}
-
-.details .skills {
-
 }
 
 .details .skills__item {
