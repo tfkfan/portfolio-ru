@@ -23,6 +23,9 @@ body {
     line-height: 25px;
     padding-bottom: 50px;
     background: url("background.png") 100% 100% / cover fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
 }
 
 a {
