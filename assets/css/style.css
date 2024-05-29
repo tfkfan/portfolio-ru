@@ -1,8 +1,14 @@
+@font-face {
+    font-family: Play;
+    src: url('Play-Regular.ttf')  format('truetype');
+}
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
 
 html {
     height: 100%;
@@ -11,19 +17,27 @@ html {
 body {
     min-height: 100%;
     background: #eee;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Play', 'sans-serif';
     font-weight: 400;
     color: #222;
-    font-size: 14px;
-    line-height: 26px;
+    font-size: 15px;
+    line-height: 25px;
     padding-bottom: 50px;
-    background: url("background.png") 100% 100% fixed;
-    background-size: cover;
+    background: url("background.png") 100% 100% / cover fixed;
+}
+
+a {
+    text-decoration: none;
+    color: #54AFE4;
+}
+
+a:visited {
+    color: #54AFE4;
 }
 
 .container {
     max-width: 700px;
-    background: rgba(255,255,255,0.9);
+    background: rgba(255, 255, 255, 0.9);
     box-shadow: 1px 1px 2px #DAD7D7;
     border-radius: 15px;
     padding: 40px;
@@ -46,7 +60,7 @@ body {
 }
 
 .header .last-name {
-   /* font-weight: 300;*/
+    /* font-weight: 300;*/
 }
 
 .header .contact-info {
@@ -75,7 +89,7 @@ body {
 
 
 .details {
-    line-height: 20px;
+    line-height: 25px;
 }
 
 .details .section {
@@ -119,6 +133,7 @@ body {
 
 .details .name {
     font-weight: bold;
+    font-size: 17px;
 }
 
 .details a {
@@ -157,7 +172,7 @@ body {
     background: #79A9CE;
 }
 
-img{
-    width:100%;
+img {
+    width: 100%;
     opacity: 1.0;
 }
