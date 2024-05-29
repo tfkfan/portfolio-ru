@@ -17,7 +17,7 @@ body {
     font-size: 14px;
     line-height: 26px;
     padding-bottom: 50px;
-    background: url("/assets/img/background.png") 100% 100% fixed;
+    background: url("assets/img/background.png") 100% 100% fixed;
     background-size: cover;
 }
 
